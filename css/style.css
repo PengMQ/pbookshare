@@ -1,0 +1,66 @@
+
+.wrapper{
+	width: 960px;
+	margin: 0px auto;
+}
+header,article{
+	margin-bottom:20px;
+}
+header {
+	overflow: hidden;
+	padding: 20px 0px 10px 0px;
+
+}
+.logo {
+	float:left;
+}
+.nav-bar {
+	float: right;
+	width: 757px;
+	height: 52px;
+	border-bottom: 1px solid #dddddd;
+	position: relative;
+}
+.nav-bar ul {
+	float: right;
+	position:absolute;
+	right:0px;
+	bottom:0px;
+	margin:0px;
+}
+.nav-bar li{
+	float: left;
+	margin-right:20px;
+}
+.nav-bar li a {
+	color: #848484;
+	font-size:15px;
+}
+.nav-bar li a:hover{
+	text-decoration: none;
+	color: #2d73ab !important;
+}
+article {
+	overflow: hidden;
+}
+.tab-content li{
+	float: left;
+	margin: 10px 10px 10px 0px;
+	width: 72px;
+	height: 105px;
+}
+
+
+.left-section {
+	width: 600px;
+	float: left;
+}
+.right-section {
+	width: 280px;
+	height: 300px;
+	float: right;
+	margin: 25px 0px 0px 0px;
+}
+.right-section ul {
+	margin:0px;
+}
