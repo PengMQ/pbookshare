@@ -1,52 +1,4 @@
-body{
-	position:relative;
-}
-.wrapper{
-	width: 960px;
-	margin: 0px auto;
-}
-header,article{
-	margin-bottom:20px;
-}
-header {
-	overflow: hidden;
-	padding: 20px 0px 10px 0px;
 
-}
-.logo {
-	float:left;
-}
-.logout {
-	float: right;
-	font-size: 18px;
-	margin-right: 20px;
-}
-.nav-bar {
-	float: right;
-	width: 757px;
-	height: 40px;
-	border-bottom: 1px solid #dddddd;
-	position: relative;
-}
-.nav-bar ul {
-	float: right;
-	position:absolute;
-	right:0px;
-	bottom:0px;
-	margin:0px;
-}
-.nav-bar li{
-	float: left;
-	margin-right:20px;
-}
-.nav-bar li a {
-	color: #848484;
-	font-size:15px;
-}
-.nav-bar li a:hover{
-	text-decoration: none;
-	color: #2d73ab !important;
-}
 article, footer ul {
 	overflow: hidden;
 }
@@ -79,18 +31,3 @@ article, footer ul {
 .right-section li img {
 	width:50px;
 }
-footer {
-	border-top:1px solid #dddddd;
-	position: absolute;
-	bottom:0px;
-	width: 960px;
-	padding:10px;
-	text-align: center;
-}
-footer p:first-child {
-	color: #2d73ab;
-}
-.copy-right {
-	margin-top:5px ! important;
-}
-
